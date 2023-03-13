@@ -1,10 +1,9 @@
-import animation from './components/Animation';
-import './App.css';
+import { Page17 } from './components/Page17';
 
 function App() {
   return (
     <div className="App">
-     <animation/>
+      <Page17 />
     </div>
   );
 }

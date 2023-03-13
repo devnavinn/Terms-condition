@@ -1,0 +1,236 @@
+.benifits-container{
+    width: 100%;
+    
+}
+.benifits-heading{
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+.benifits-lists{
+    width:33.3%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-bottom: 45px;
+    margin-top:24px;
+}
+.benifits-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.benifit-category{
+    font-family: 'Georgia';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 66.5326px;
+    line-height: 100px;
+/* identical to box height, or 150% */
+}
+.benfit-range{
+    font-family: 'Georgia';
+font-style: normal;
+font-weight: 400;
+font-size: 42.5809px;
+line-height: 64px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;
+}
+.benifit-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 23.44vw;
+    height:41vw;
+    background: #F4F0EC;
+    box-shadow: 0px 3.53398px 20.3204px rgba(0, 0, 0, 0.25);
+    border-radius: 31.775px;
+
+}
+.benifit-card2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 23.44vw;
+    height:43vw;
+    background: #F4F0EC;
+    box-shadow: 0px 3.53398px 20.3204px rgba(0, 0, 0, 0.25);
+    border-radius: 31.775px;
+ 
+}
+.dot1{
+    border-radius: 50%;
+    position: absolute;
+    left: 82.69%;
+    right: 12.54%;
+    top: 17.3%;
+    bottom: 74.05%;
+    background: #FFFFFF;
+    opacity: 0.5;
+}
+.dot2{
+    position: absolute;
+    border-radius: 50%;
+    left: 85.97%;
+    right: 9.25%;
+    top: 17.3%;
+    bottom: 74.05%;
+    background: #FFFFFF;
+    opacity: 0.9;
+}
+.master-card1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    height: 105px;
+    background: linear-gradient(106.15deg, #676D72 1.98%, #B1B1B1 98%);
+    border-radius: 11.3693px;
+}
+.master-card2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    height: 105px;
+    background: linear-gradient(106.15deg, #FFC806 1.98%, #B1BB8B 98%);
+    border-radius: 11.3693px; 
+}
+.master-card3{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 190px;
+    height: 105px;
+    background: linear-gradient(106.15deg, #000000 1.98%, #4B4B4A 98%);
+    border-radius: 11.3693px;
+}
+.card-name-container{
+    position: relative;
+    top:16%;
+    left: 7.16%;
+}
+.card-name{
+    font-family: 'Lato';
+font-style: normal;
+font-weight: 400;
+font-size: 9.09546px;
+line-height: 14px;
+/* identical to box height, or 150% */
+color: #FFFFFF;
+}
+.card-no-container{
+    position: relative;
+    left:7.31%;
+    top:-15%;
+}
+.card-n0{   
+  color: #FFFFFF;
+}
+.gold-section{
+    position: relative;
+    padding: 9.62877px 36.5893px;
+    width: 229.18px;
+    height: 41.26px;
+    background: #292F36;
+    border-radius: 17.3318px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17.3318px;
+    line-height: 125%;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    
+}
+.benifit-card-paragraph{
+   
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 19.2575px;
+    line-height: 250%;
+    text-align: center;
+    letter-spacing: 0.01em;
+
+    color: #4D5053;
+}
+.explore-btn{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+}
+.explore-btn-container{
+    transition:ease 0.5s;
+    cursor: pointer;
+}
+.explore-btn-container a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.explore-btn-container a:after {
+    content:"\2192";
+    position: absolute;
+    opacity: 0;
+    top: 24%;
+    left:75%;
+    transition: 0.5s;
+  }
+  .explore-btn-container:hover a {
+    padding-right: 30px;
+  }
+  
+  .explore-btn-container:hover a:after {
+    opacity: 1;
+    right: 0;
+  }
+.explore-btn:hover{
+ max-width: 200px;
+ background-color: #FFC806;
+ color:#ffff;
+}
+.explore-btn2:hover{
+    background-color: #000000;
+    color: #ffff;
+}
+.h6{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.explore-btn2{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+}

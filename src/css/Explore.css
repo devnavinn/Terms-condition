@@ -59,3 +59,66 @@ border-right: 1px solid gainsboro;
 width: 33.3%;
 margin-left:2.64%;
 }
+
+.explore-btn{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+}
+.explore-btn-container{
+    transition:ease 0.5s;
+    cursor: pointer;
+}
+.explore-btn-container a {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+.explore-btn-container a:after {
+    content:"\2192";
+    position: absolute;
+    opacity: 0;
+    top: 28%;
+    left:75%;
+    transition: 0.5s;
+  }
+  .explore-btn-container:hover a {
+    padding-right: 30px;
+  }
+  
+  .explore-btn-container:hover a:after {
+    opacity: 1;
+    right: 0;
+  }
+.explore-btn:hover{
+ max-width: 200px;
+ background-color: #FFC806;
+ color:#ffff;
+}
+.explore-btn2:hover{
+    background-color: #000000;
+    color: #ffff;
+}
+.explore-btn2{
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 11px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #111111;
+}
